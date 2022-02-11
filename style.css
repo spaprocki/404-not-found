@@ -66,7 +66,7 @@ button {
   font-family: Space Mono;
   color: white;
   background: #333333;
-  width: 60vw;
+  width: 55vw;
   height: 10vh;
   font-size: 3vw;
 }
@@ -77,13 +77,14 @@ footer {
   text-align: center;
   font-size: 3vw;
   margin-bottom: 2vh;
+  font-family: 'Montserrat', sans-serif;
+  color: #BDBDBD;
 }
 
 /* for the rest */
 @media only screen and (min-width: 768px) {
   * {
     row-gap: 0px;
-    border: 1px solid black;
   }
   #site-wrapper {
     margin: auto;
@@ -116,6 +117,8 @@ footer {
     margin-top: 0px;
     max-height: 30vw;
     max-height: 50vh;
+    max-width: 45%;
+    height: auto;
     width: auto;
   }
 
@@ -147,6 +150,6 @@ footer {
     margin-top: 0px;
     width: auto;
     text-align: center;
-    font-size: 1vh;
+    font-size: 2vh;
   }
 }
