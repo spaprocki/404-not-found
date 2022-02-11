@@ -1,0 +1,140 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+/* for mobile phones */
+
+body {
+  font-family: Space Mono;
+  font-style: normal;
+  font-weight: normal;
+}
+
+#site-wrapper {
+  width: 85vw;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+header {
+  margin-top: 2vw;
+}
+
+h4 {
+    font-size: 5vw;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  #text-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: flex-start;
+  }  
+
+  h1 {
+    font-weight: bold;
+    font-size: 9vw;
+    text-align: justify;
+    width: fit-content;
+  }
+
+  p {
+    font-size: 5vw;
+    letter-spacing: -0.035em;
+    color: #4f4f4f;
+  }
+
+  button {
+    font-family: Space Mono;
+    color: white;
+    background: #333333;
+    width: 60vw;
+    height: 10vh;
+    font-size: 3vw;
+  }
+
+  footer {
+    width: auto;
+    text-align: center;
+    font-size: 3vw;
+    margin-bottom: 2vh;
+  }
+
+/* for the rest */
+@media only screen and (min-width: 768px) {
+    * {
+        row-gap: 0px;
+
+    }
+  #site-wrapper {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 80vw;
+    height: 100vh;
+    justify-content: space-between;
+  }
+
+  header {
+    margin-top: 5vh;
+  }
+
+  h4 {
+    font-size: 1.5vw;
+    letter-spacing: -0.035em;
+}
+
+  main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  img {
+    max-height: 30vw;
+    max-height: 50vh;
+    width: auto;
+  }
+
+  #text-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    justify-content: space-between;
+  }
+
+  h1 {
+    font-size: 3.5vw;
+  }
+
+  p {
+    font-size: 2vw;
+    letter-spacing: -0.035em;
+  }
+
+  button {
+    width: 15vw;
+    font-size: 1.2vw;
+  }
+
+  footer {
+    width: auto;
+    text-align: center;
+    font-size: 1vw;
+  }
+
+}
