@@ -23,68 +23,74 @@ header {
 }
 
 h4 {
-    font-size: 5vw;
+  font-size: 5vw;
 }
 
 main {
+  margin-top: 10vh;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
 }
 
 img {
-    max-width: 100%;
-    height: auto;
-  }
+  margin-top: 10vh;
+  max-width: 100%;
+  height: auto;
+}
 
-  #text-wrapper {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    justify-content: flex-start;
-  }  
+#text-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: flex-start;
+}
 
-  h1 {
-    font-weight: bold;
-    font-size: 9vw;
-    text-align: justify;
-    width: fit-content;
-  }
+h1 {
+  margin-top: 10vh;
+  font-weight: bold;
+  font-size: 9vw;
+  text-align: justify;
+  width: fit-content;
+}
 
-  p {
-    font-size: 5vw;
-    letter-spacing: -0.035em;
-    color: #4f4f4f;
-  }
+p {
+  margin-top: 10vh;
+  font-size: 5vw;
+  letter-spacing: -0.035em;
+  color: #4f4f4f;
+}
 
-  button {
-    font-family: Space Mono;
-    color: white;
-    background: #333333;
-    width: 60vw;
-    height: 10vh;
-    font-size: 3vw;
-  }
+button {
+  margin-top: 10vh;
+  font-family: Space Mono;
+  color: white;
+  background: #333333;
+  width: 60vw;
+  height: 10vh;
+  font-size: 3vw;
+}
 
-  footer {
-    width: auto;
-    text-align: center;
-    font-size: 3vw;
-    margin-bottom: 2vh;
-  }
+footer {
+  margin-top: 20vh;
+  width: auto;
+  text-align: center;
+  font-size: 3vw;
+  margin-bottom: 2vh;
+}
 
 /* for the rest */
 @media only screen and (min-width: 768px) {
-    * {
-        row-gap: 0px;
-
-    }
+  * {
+    row-gap: 0px;
+    border: 1px solid black;
+  }
   #site-wrapper {
     margin: auto;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    width: 80vw;
+    width: fit-content;
     height: 100vh;
     justify-content: space-between;
   }
@@ -94,17 +100,20 @@ img {
   }
 
   h4 {
-    font-size: 1.5vw;
+    font-size: 2vh;
     letter-spacing: -0.035em;
-}
+  }
 
   main {
+    width: auto;
+    margin-top: 0px;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    column-gap: 10vw;
   }
 
   img {
+    margin-top: 0px;
     max-height: 30vw;
     max-height: 50vh;
     width: auto;
@@ -118,23 +127,26 @@ img {
   }
 
   h1 {
-    font-size: 3.5vw;
+    margin-top: 0px;
+    font-size: 5vh;
   }
 
   p {
-    font-size: 2vw;
+    margin-top: 0px;
+    font-size: 3vh;
     letter-spacing: -0.035em;
   }
 
   button {
+    margin-top: 0px;
     width: 15vw;
     font-size: 1.2vw;
   }
 
   footer {
+    margin-top: 0px;
     width: auto;
     text-align: center;
-    font-size: 1vw;
+    font-size: 1vh;
   }
-
 }
