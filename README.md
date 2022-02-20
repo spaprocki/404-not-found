@@ -1,6 +1,6 @@
 <!-- Please update value in the {}  -->
 
-<h1 align="center">{404-not-found by papi}</h1>
+<h1 align="center">404-not-found by papi</h1>
 
 <div align="center">
    Solution for a challenge from  <a href="http://devchallenges.io" target="_blank">Devchallenges.io</a>.
@@ -8,11 +8,11 @@
 
 <div align="center">
   <h3>
-    <a href="https://{papi-404-not-found.netlify.app/}">
+    <a href="https://papi-404-not-found.netlify.app/">
       Demo
     </a>
     <span> | </span>
-    <a href="https://{github.com/spaprocki/404-not-found}">
+    <a href="https://github.com/spaprocki/404-not-found">
       Solution
     </a>
     <span> | </span>
@@ -66,4 +66,4 @@ This application/site was created as a submission to a [DevChallenges](https://d
 
 ## Contact
 
-- GitHub [@spaprocki](https://{github.com/spaprocki})
+- GitHub [@spaprocki](https://github.com/spaprocki)
