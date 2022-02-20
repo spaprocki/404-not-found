@@ -1,0 +1,60 @@
+@media only screen and (min-width: 768px) {
+
+  #site-wrapper {
+    margin-right: auto;
+    margin-left: 5.38vw;
+    width: 86.38vw;
+    height: 75vw;
+  }
+
+  header {
+    margin-top: 2.8vw;
+  }
+
+  h4 {
+    font-size: 1.7vw;
+  }
+
+  main {
+    margin-top: 13vw;
+    flex-direction: row;
+  }
+
+  img {
+    margin-top: 0vh;
+    height: auto;
+    width: 37.5vw;
+  }
+
+  #text-wrapper {
+    width: 40vw;
+    margin-top: 0vw;
+    margin-left: 8.2vw;
+  }
+
+  h1 {
+    margin-top: 0px;
+    font-size: 4.4vw;
+    line-height: 6.6vw;
+  }
+
+  p {
+    width: 26.46vw;
+    margin-top: 2.5vw;
+    font-size: 1.7vw;
+    line-height: 2.5vw;
+  }
+
+  button {
+    margin-top: 4.4vw;
+    width: 15vw;
+    height: 4.7vw;
+    font-size: 1vw;
+  }
+
+  footer {
+    margin-top: 21.38vw;
+    margin-bottom: 1.67vw;
+    font-size: 1vw;
+  }
+}
