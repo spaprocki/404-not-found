@@ -38,13 +38,6 @@
 
 ![screenshot](https://spaprocki.github.io/hosted-assets/404-not-found-screenshot.PNG)
 
-Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering:
-
-- Where can I see your demo?
-- What was your experience?
-- What have you learned/improved?
-- Your wisdom? :)
-
 During completion of this challenge I've noticed, that expressing elements' sizes with percentage of viewport width or height makes most of the work much easier.
 
 Site demo can be seen at: (https://papi-404-not-found.netlify.app/)
